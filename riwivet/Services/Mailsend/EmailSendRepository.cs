@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace riwivet.Services.Mailsend
 {
@@ -13,11 +16,11 @@ namespace riwivet.Services.Mailsend
         private readonly string? fromEmail;
 
         private readonly HttpClient _client;
-        public EmailSender(HttpClient httpClient, IConfiguration configuration){
+        public EmailSendRepository(HttpClient httpClient, IConfiguration configuration){
             _client = httpClient;
             ApiKEY = configuration["MailSend:ApiURL"];
         }
-        public Task<string> SendEmailAsync(string info, string toemail)
+        public async Task<string> SendEmailAsync(string info, string toemail)
         {
             var request = new{
                 from = new {email = fromEmail},
@@ -26,8 +29,20 @@ namespace riwivet.Services.Mailsend
                 text = "correo de prubea"
             };
             _client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer",ApiKEY);
+             var content = new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json");
 
-            
+            var response = await _client.PostAsync(ApiURL, content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadAsStringAsync();
+            }
+            else
+            {
+                // Manejo de errores, puede ser lanzar una excepción o devolver un mensaje de error
+                var error = await response.Content.ReadAsStringAsync();
+                throw new HttpRequestException($"Error enviando correo: {error}");
+            }
         }
     }
 }

@@ -36,3 +36,42 @@ C:\Users\Santiago Mona\Desktop\Proyectos\riwivet\obj\Debug\net8.0\refint\riwivet
 C:\Users\Santiago Mona\Desktop\Proyectos\riwivet\obj\Debug\net8.0\riwivet.pdb
 C:\Users\Santiago Mona\Desktop\Proyectos\riwivet\obj\Debug\net8.0\riwivet.genruntimeconfig.cache
 C:\Users\Santiago Mona\Desktop\Proyectos\riwivet\obj\Debug\net8.0\ref\riwivet.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.csproj.AssemblyReference.cache
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.AssemblyInfoInputs.cache
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.AssemblyInfo.cs
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.csproj.CoreCompileInputs.cache
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.sourcelink.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\refint\riwivet.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.pdb
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\appsettings.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\riwivet.exe
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\riwivet.deps.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\riwivet.runtimeconfig.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\riwivet.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\riwivet.pdb
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets\msbuild.riwivet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets\msbuild.build.riwivet.props
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.riwivet.props
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.riwivet.props
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\scopedcss\bundle\riwivet.styles.css
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.csproj.Up2Date
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\riwivet.genruntimeconfig.cache
+C:\Users\Santiago Mona\Desktop\Proyectos\Filtro Junio\Veterinaria\riwivet\obj\Debug\net8.0\ref\riwivet.dll
