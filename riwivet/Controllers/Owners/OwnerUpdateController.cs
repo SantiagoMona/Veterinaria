@@ -18,7 +18,7 @@ namespace riwivet.Controllers.Owners
         }
         [HttpPut]
         [Route("/owners/{id}")]
-         public async Task<IActionResult> UpdateOwner(int id, [FromBody] OwnerDto ownerDto)
+        public async Task<IActionResult> UpdateOwner(int id, [FromBody] OwnerDto ownerDto)
         {
             var result = await _ownersRepository.UptadeOwner(id, ownerDto);
             return Ok(result);

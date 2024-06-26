@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("riwivet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f538dd3e715a172d184386108c59e1d49a3bbacd")]
 [assembly: System.Reflection.AssemblyProductAttribute("riwivet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("riwivet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

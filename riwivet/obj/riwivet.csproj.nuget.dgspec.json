@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\riwivet\\riwivet.csproj": {}
+    "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\Filtro Junio\\Veterinaria\\riwivet\\riwivet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\riwivet\\riwivet.csproj": {
+    "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\Filtro Junio\\Veterinaria\\riwivet\\riwivet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\riwivet\\riwivet.csproj",
+        "projectUniqueName": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\Filtro Junio\\Veterinaria\\riwivet\\riwivet.csproj",
         "projectName": "riwivet",
-        "projectPath": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\riwivet\\riwivet.csproj",
+        "projectPath": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\Filtro Junio\\Veterinaria\\riwivet\\riwivet.csproj",
         "packagesPath": "C:\\Users\\Santiago Mona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\riwivet\\obj\\",
+        "outputPath": "C:\\Users\\Santiago Mona\\Desktop\\Proyectos\\Filtro Junio\\Veterinaria\\riwivet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Santiago Mona\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,18 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "system.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "system.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "system.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
