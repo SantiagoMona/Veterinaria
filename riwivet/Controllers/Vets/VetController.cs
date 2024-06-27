@@ -27,6 +27,7 @@ namespace riwivet.Controllers.Vets
         public Vet Get(int id)
         {
             return _VetsRepository.GetById(id);
-        }  
+        }
+          
     }
 }

@@ -1,4 +1,5 @@
 using System.IO.Compression;
+using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -41,13 +42,20 @@ builder.Services.Configure<MailSendOptions>(builder.Configuration.GetSection("Ma
 
 /*================= CONFIGURACION DEL JWT ======================*/
 builder.Services.AddAuthentication(opt => {
-    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // este es un esquema de autenticacion
     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-    .AddJwtBearer(configurre => {
+    .AddJwtBearer(configure => {
         configure.TokenValidationParameters = new TokenValidationParameters
         {
-            
+            // definicion de reglas del token
+            ValidateIssuer= true,
+            ValidateAudience= true,
+            ValidateLifetime= true,
+            ValidateIssuerSigningKey= true,
+            ValidIssuer= builder.Configuration["Jwt:Issuer"],
+            ValidAudience= builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey= new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:key"])), //Referencia de clave
         };
     });
 

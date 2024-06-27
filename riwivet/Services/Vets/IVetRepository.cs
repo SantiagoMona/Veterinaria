@@ -7,5 +7,6 @@ namespace riwivet.Services.Vets
     {
         IEnumerable<Vet> GetAllVets();  
         Vet GetById(int id); 
+        string generateToken(string correo, string codigo);
     }
 }
